@@ -1,0 +1,31 @@
+===============================================
+PIPENV Related Command Set
+===============================================
+
+#1: for Windows PC, install on global env
+$pip install pipenv
+
+#2: Create Project folder and go into that folder
+$mkdir newProject
+
+#3: #which activates venv and creates pipfile, showing all installed dependencies)environment)
+$pipenv shell
+
+#4: Install Libraries (...dependencies)
+$pipenv install
+
+#5: To exit out of venv)
+$exit
+
+#6: pipenv Help - (shows all commands)
+$pipenv -h
+
+#7: # shows all dependencies on current scope
+$pip freeze
+
+===============================================
+jupyter
+===============================================
+
+pip install jupyter
+pipenv run jupyter notebook
